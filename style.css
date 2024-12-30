@@ -1,0 +1,317 @@
+/* Background Colors */
+body {
+    background-color: #f8f9fe;
+}
+
+.bg-light {
+    background-color: #f1f3ff !important;
+}
+
+/* Button Styles */
+.btn-custom-primary {
+    background: linear-gradient(to right, #8E2DE2, #4A00E0);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(142, 45, 226, 0.2);
+}
+
+.btn-custom-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(142, 45, 226, 0.3);
+    color: white;
+}
+
+.btn-custom-secondary {
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(74, 0, 224, 0.2);
+}
+
+.btn-custom-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(74, 0, 224, 0.3);
+    color: white;
+}
+
+/* Section Background Colors */
+#home {
+    background: linear-gradient(135deg, #f8f9fe 0%, #e8eafd 100%);
+    padding-top: 120px;
+}
+
+#ABOUT {
+    background-color: #ffffff;
+}
+
+#course {
+    background-color: #f8f9fe;
+}
+
+/* Card Button Overrides */
+.card .btn-custom-primary {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+/* Hero Section Buttons */
+.hero-buttons .btn {
+    margin: 5px;
+}
+
+.navbar {
+    background: linear-gradient(to right, #5c03aa, #4b00e0) !important;
+    padding: 15px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: 700;
+    margin-left: 3%;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+    margin: 0 8px;
+    padding: 10px 20px !important;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+/* Hamburger menu color */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Mobile menu styles */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background: linear-gradient(to right, #5c03aa, #4b00e0) !important;
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .nav-link {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .navbar-nav {
+        padding: 10px 0;
+    }
+
+    /* Active link in mobile view */
+    .nav-link.active {
+        background: rgba(255, 255, 255, 0.1);
+    }
+}
+
+/* Hover effects */
+.nav-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+/* Active link styling */
+.nav-link.active {
+    background: rgba(255, 255, 255, 0.15);
+    font-weight: 600;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    align-items: center;
+}
+
+.nav-link {
+    color: #ecf0f1 !important;
+    font-weight: 500;
+    padding: 8px 16px !important;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #3498db !important;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+#btn1 {
+    border-radius: 5px;
+}
+
+h1 {
+    color: rgb(77, 77, 77);
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h5 {
+    margin-top: 40px;
+    color: rgb(77, 77, 77);
+    font-size: 25px;
+}
+
+img {
+    border-radius: 50%;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#btn2 {
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(46, 186, 46);
+    color: white;
+    border-color: white;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    #btn2 {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 120px;
+    }
+    
+    .card {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
+
+.dropdown-menu {
+    background-color: #34495e;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: #ecf0f1;
+    transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(to right, #5c03aa, #4b00e0) !important;
+    padding: 20px 0 10px;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+}
+
+footer h5 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+footer .list-unstyled li {
+    margin-bottom: 8px;
+}
+
+footer .list-unstyled a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+footer .list-unstyled a:hover {
+    color: white;
+    padding-left: 5px;
+}
+
+footer .social-icons a {
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    transform: translateY(-3px);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+footer hr {
+    margin: 15px 0;
+    opacity: 0.1;
+}
+
+footer .copyright {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#home {
+    background: linear-gradient(135deg, #f8f9fe 0%, #e8eafd 100%);
+    padding-top: 120px;
+}
+
+@media (max-width: 768px) {
+    #home {
+        padding-top: 80px;
+    }
+    
+    #home h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #home {
+        padding-top: 70px;
+    }
+    
+    #home h1 {
+        font-size: 2rem;
+    }
+}
